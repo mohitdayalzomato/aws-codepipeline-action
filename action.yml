@@ -4,18 +4,18 @@ inputs:
   aws-region:
     description: "AWS Region where the CodePipeline is located"
     required: true
-  aws-access-key:
-    description: "AWS Access Key ID to trigger CodePipeline"
-    required: true
-  aws-secret-key:
-    description: "AWS Secret Key to trigger CodePipeline"
-    required: true
+#  aws-access-key:
+#    description: "AWS Access Key ID to trigger CodePipeline"
+#    required: true
+#  aws-secret-key:
+#    description: "AWS Secret Key to trigger CodePipeline"
+#    required: true
   pipeline-name:
     description: "The name of the pipeline"
     required: true
-  aws-session-token:
-    description: "Session token for temporary credentials"
-    required: true
+#  aws-session-token:
+#    description: "Session token for temporary credentials"
+#    required: true
 runs:
   using: "node12"
   main: "dist/index.js"
